@@ -32,18 +32,18 @@ Azure: Azure MySQL Database, Virtual Network
 Other: Linux, PHP
 
 ## Security Implementation
-AWS Security Groups for controlled access
-Azure firewall rules for database protection
-Private subnet for application layer
-Principle of least privilege
+- AWS Security Groups for controlled access
+- Azure firewall rules for database protection
+- Private subnet for application layer
+- Principle of least privilege
 
 ## Implementation Steps
-Created AWS VPC with public and private subnets
-Deployed EC2 instances for web and application layers
-Configured Application Load Balancer
-Set up Azure MySQL database
-Connected AWS application to Azure database
-Tested end-to-end connectivity
+- Created AWS VPC with public and private subnets
+- Deployed EC2 instances for web and application layers
+- Configured Application Load Balancer
+- set up Azure MySQL database
+- Connected AWS application to Azure database
+- Tested end-to-end connectivity
 
 ##Outcome
 Successfully deployed a scalable, secure, and highly available multi-cloud application, demonstrating real-world cloud architecture skills.
